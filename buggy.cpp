@@ -89,8 +89,8 @@ int main () {
     quad->addPoints(quadPts); // ERROR: wrong way to get member of class reference instance
 
     // FIXME: print out area of tri and area of quad
-    std::cout << "Triangle Area: " << tri->area() << std::endl;
-    std::cout << "Quadrilateral Area: " << quad->area() << std::endl;
+    std::cout << "Tri area: " << tri->area() << std::endl;
+    std::cout << "Quad area: " << quad->area() << std::endl;
 
     // ERROR: dynamically allocated shapes need to be freed from memory
     delete tri;
